@@ -27,15 +27,7 @@ public:
 }
 
 int main() {
-	// Create a vector called cars that will store strings
-	vector<string> cars = {"Volvo", "BMW", "Ford", "Mazda"};
-
-// Print vector elements
-	for (string car : cars) {
-  	cout << car << "\n";
-	};
-	Product obj1;
-	obj1.name = "brahim";
+	
 	
 	
 
