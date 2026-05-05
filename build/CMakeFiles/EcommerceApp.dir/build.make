@@ -83,17 +83,81 @@ CMakeFiles/EcommerceApp.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EcommerceApp.dir/main.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aitoubraim/code_dir/e-commerce-platform/main.cpp -o CMakeFiles/EcommerceApp.dir/main.cpp.s
 
+CMakeFiles/EcommerceApp.dir/src/Cart.cpp.o: CMakeFiles/EcommerceApp.dir/flags.make
+CMakeFiles/EcommerceApp.dir/src/Cart.cpp.o: /home/aitoubraim/code_dir/e-commerce-platform/src/Cart.cpp
+CMakeFiles/EcommerceApp.dir/src/Cart.cpp.o: CMakeFiles/EcommerceApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/aitoubraim/code_dir/e-commerce-platform/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/EcommerceApp.dir/src/Cart.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EcommerceApp.dir/src/Cart.cpp.o -MF CMakeFiles/EcommerceApp.dir/src/Cart.cpp.o.d -o CMakeFiles/EcommerceApp.dir/src/Cart.cpp.o -c /home/aitoubraim/code_dir/e-commerce-platform/src/Cart.cpp
+
+CMakeFiles/EcommerceApp.dir/src/Cart.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EcommerceApp.dir/src/Cart.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aitoubraim/code_dir/e-commerce-platform/src/Cart.cpp > CMakeFiles/EcommerceApp.dir/src/Cart.cpp.i
+
+CMakeFiles/EcommerceApp.dir/src/Cart.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EcommerceApp.dir/src/Cart.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aitoubraim/code_dir/e-commerce-platform/src/Cart.cpp -o CMakeFiles/EcommerceApp.dir/src/Cart.cpp.s
+
+CMakeFiles/EcommerceApp.dir/src/Customer.cpp.o: CMakeFiles/EcommerceApp.dir/flags.make
+CMakeFiles/EcommerceApp.dir/src/Customer.cpp.o: /home/aitoubraim/code_dir/e-commerce-platform/src/Customer.cpp
+CMakeFiles/EcommerceApp.dir/src/Customer.cpp.o: CMakeFiles/EcommerceApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/aitoubraim/code_dir/e-commerce-platform/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/EcommerceApp.dir/src/Customer.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EcommerceApp.dir/src/Customer.cpp.o -MF CMakeFiles/EcommerceApp.dir/src/Customer.cpp.o.d -o CMakeFiles/EcommerceApp.dir/src/Customer.cpp.o -c /home/aitoubraim/code_dir/e-commerce-platform/src/Customer.cpp
+
+CMakeFiles/EcommerceApp.dir/src/Customer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EcommerceApp.dir/src/Customer.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aitoubraim/code_dir/e-commerce-platform/src/Customer.cpp > CMakeFiles/EcommerceApp.dir/src/Customer.cpp.i
+
+CMakeFiles/EcommerceApp.dir/src/Customer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EcommerceApp.dir/src/Customer.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aitoubraim/code_dir/e-commerce-platform/src/Customer.cpp -o CMakeFiles/EcommerceApp.dir/src/Customer.cpp.s
+
+CMakeFiles/EcommerceApp.dir/src/Order.cpp.o: CMakeFiles/EcommerceApp.dir/flags.make
+CMakeFiles/EcommerceApp.dir/src/Order.cpp.o: /home/aitoubraim/code_dir/e-commerce-platform/src/Order.cpp
+CMakeFiles/EcommerceApp.dir/src/Order.cpp.o: CMakeFiles/EcommerceApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/aitoubraim/code_dir/e-commerce-platform/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/EcommerceApp.dir/src/Order.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EcommerceApp.dir/src/Order.cpp.o -MF CMakeFiles/EcommerceApp.dir/src/Order.cpp.o.d -o CMakeFiles/EcommerceApp.dir/src/Order.cpp.o -c /home/aitoubraim/code_dir/e-commerce-platform/src/Order.cpp
+
+CMakeFiles/EcommerceApp.dir/src/Order.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EcommerceApp.dir/src/Order.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aitoubraim/code_dir/e-commerce-platform/src/Order.cpp > CMakeFiles/EcommerceApp.dir/src/Order.cpp.i
+
+CMakeFiles/EcommerceApp.dir/src/Order.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EcommerceApp.dir/src/Order.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aitoubraim/code_dir/e-commerce-platform/src/Order.cpp -o CMakeFiles/EcommerceApp.dir/src/Order.cpp.s
+
+CMakeFiles/EcommerceApp.dir/src/Product.cpp.o: CMakeFiles/EcommerceApp.dir/flags.make
+CMakeFiles/EcommerceApp.dir/src/Product.cpp.o: /home/aitoubraim/code_dir/e-commerce-platform/src/Product.cpp
+CMakeFiles/EcommerceApp.dir/src/Product.cpp.o: CMakeFiles/EcommerceApp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/aitoubraim/code_dir/e-commerce-platform/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/EcommerceApp.dir/src/Product.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EcommerceApp.dir/src/Product.cpp.o -MF CMakeFiles/EcommerceApp.dir/src/Product.cpp.o.d -o CMakeFiles/EcommerceApp.dir/src/Product.cpp.o -c /home/aitoubraim/code_dir/e-commerce-platform/src/Product.cpp
+
+CMakeFiles/EcommerceApp.dir/src/Product.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EcommerceApp.dir/src/Product.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aitoubraim/code_dir/e-commerce-platform/src/Product.cpp > CMakeFiles/EcommerceApp.dir/src/Product.cpp.i
+
+CMakeFiles/EcommerceApp.dir/src/Product.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EcommerceApp.dir/src/Product.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aitoubraim/code_dir/e-commerce-platform/src/Product.cpp -o CMakeFiles/EcommerceApp.dir/src/Product.cpp.s
+
 # Object files for target EcommerceApp
 EcommerceApp_OBJECTS = \
-"CMakeFiles/EcommerceApp.dir/main.cpp.o"
+"CMakeFiles/EcommerceApp.dir/main.cpp.o" \
+"CMakeFiles/EcommerceApp.dir/src/Cart.cpp.o" \
+"CMakeFiles/EcommerceApp.dir/src/Customer.cpp.o" \
+"CMakeFiles/EcommerceApp.dir/src/Order.cpp.o" \
+"CMakeFiles/EcommerceApp.dir/src/Product.cpp.o"
 
 # External object files for target EcommerceApp
 EcommerceApp_EXTERNAL_OBJECTS =
 
 EcommerceApp: CMakeFiles/EcommerceApp.dir/main.cpp.o
+EcommerceApp: CMakeFiles/EcommerceApp.dir/src/Cart.cpp.o
+EcommerceApp: CMakeFiles/EcommerceApp.dir/src/Customer.cpp.o
+EcommerceApp: CMakeFiles/EcommerceApp.dir/src/Order.cpp.o
+EcommerceApp: CMakeFiles/EcommerceApp.dir/src/Product.cpp.o
 EcommerceApp: CMakeFiles/EcommerceApp.dir/build.make
 EcommerceApp: CMakeFiles/EcommerceApp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/aitoubraim/code_dir/e-commerce-platform/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable EcommerceApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/aitoubraim/code_dir/e-commerce-platform/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable EcommerceApp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/EcommerceApp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

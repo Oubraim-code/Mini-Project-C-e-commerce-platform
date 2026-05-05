@@ -153,6 +153,102 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/EcommerceApp.dir/build.make CMakeFiles/EcommerceApp.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/Cart.o: src/Cart.cpp.o
+.PHONY : src/Cart.o
+
+# target to build an object file
+src/Cart.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EcommerceApp.dir/build.make CMakeFiles/EcommerceApp.dir/src/Cart.cpp.o
+.PHONY : src/Cart.cpp.o
+
+src/Cart.i: src/Cart.cpp.i
+.PHONY : src/Cart.i
+
+# target to preprocess a source file
+src/Cart.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EcommerceApp.dir/build.make CMakeFiles/EcommerceApp.dir/src/Cart.cpp.i
+.PHONY : src/Cart.cpp.i
+
+src/Cart.s: src/Cart.cpp.s
+.PHONY : src/Cart.s
+
+# target to generate assembly for a file
+src/Cart.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EcommerceApp.dir/build.make CMakeFiles/EcommerceApp.dir/src/Cart.cpp.s
+.PHONY : src/Cart.cpp.s
+
+src/Customer.o: src/Customer.cpp.o
+.PHONY : src/Customer.o
+
+# target to build an object file
+src/Customer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EcommerceApp.dir/build.make CMakeFiles/EcommerceApp.dir/src/Customer.cpp.o
+.PHONY : src/Customer.cpp.o
+
+src/Customer.i: src/Customer.cpp.i
+.PHONY : src/Customer.i
+
+# target to preprocess a source file
+src/Customer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EcommerceApp.dir/build.make CMakeFiles/EcommerceApp.dir/src/Customer.cpp.i
+.PHONY : src/Customer.cpp.i
+
+src/Customer.s: src/Customer.cpp.s
+.PHONY : src/Customer.s
+
+# target to generate assembly for a file
+src/Customer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EcommerceApp.dir/build.make CMakeFiles/EcommerceApp.dir/src/Customer.cpp.s
+.PHONY : src/Customer.cpp.s
+
+src/Order.o: src/Order.cpp.o
+.PHONY : src/Order.o
+
+# target to build an object file
+src/Order.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EcommerceApp.dir/build.make CMakeFiles/EcommerceApp.dir/src/Order.cpp.o
+.PHONY : src/Order.cpp.o
+
+src/Order.i: src/Order.cpp.i
+.PHONY : src/Order.i
+
+# target to preprocess a source file
+src/Order.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EcommerceApp.dir/build.make CMakeFiles/EcommerceApp.dir/src/Order.cpp.i
+.PHONY : src/Order.cpp.i
+
+src/Order.s: src/Order.cpp.s
+.PHONY : src/Order.s
+
+# target to generate assembly for a file
+src/Order.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EcommerceApp.dir/build.make CMakeFiles/EcommerceApp.dir/src/Order.cpp.s
+.PHONY : src/Order.cpp.s
+
+src/Product.o: src/Product.cpp.o
+.PHONY : src/Product.o
+
+# target to build an object file
+src/Product.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EcommerceApp.dir/build.make CMakeFiles/EcommerceApp.dir/src/Product.cpp.o
+.PHONY : src/Product.cpp.o
+
+src/Product.i: src/Product.cpp.i
+.PHONY : src/Product.i
+
+# target to preprocess a source file
+src/Product.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EcommerceApp.dir/build.make CMakeFiles/EcommerceApp.dir/src/Product.cpp.i
+.PHONY : src/Product.cpp.i
+
+src/Product.s: src/Product.cpp.s
+.PHONY : src/Product.s
+
+# target to generate assembly for a file
+src/Product.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EcommerceApp.dir/build.make CMakeFiles/EcommerceApp.dir/src/Product.cpp.s
+.PHONY : src/Product.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +261,18 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/Cart.o"
+	@echo "... src/Cart.i"
+	@echo "... src/Cart.s"
+	@echo "... src/Customer.o"
+	@echo "... src/Customer.i"
+	@echo "... src/Customer.s"
+	@echo "... src/Order.o"
+	@echo "... src/Order.i"
+	@echo "... src/Order.s"
+	@echo "... src/Product.o"
+	@echo "... src/Product.i"
+	@echo "... src/Product.s"
 .PHONY : help
 
 
