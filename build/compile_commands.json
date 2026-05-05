@@ -19,6 +19,12 @@
 },
 {
   "directory": "/home/aitoubraim/code_dir/e-commerce-platform/build",
+  "command": "/usr/bin/g++  -I/home/aitoubraim/code_dir/e-commerce-platform/include -g -std=gnu++17 -o CMakeFiles/EcommerceApp.dir/src/Interface.cpp.o -c /home/aitoubraim/code_dir/e-commerce-platform/src/Interface.cpp",
+  "file": "/home/aitoubraim/code_dir/e-commerce-platform/src/Interface.cpp",
+  "output": "CMakeFiles/EcommerceApp.dir/src/Interface.cpp.o"
+},
+{
+  "directory": "/home/aitoubraim/code_dir/e-commerce-platform/build",
   "command": "/usr/bin/g++  -I/home/aitoubraim/code_dir/e-commerce-platform/include -g -std=gnu++17 -o CMakeFiles/EcommerceApp.dir/src/Order.cpp.o -c /home/aitoubraim/code_dir/e-commerce-platform/src/Order.cpp",
   "file": "/home/aitoubraim/code_dir/e-commerce-platform/src/Order.cpp",
   "output": "CMakeFiles/EcommerceApp.dir/src/Order.cpp.o"

@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/EcommerceApp.dir/src/Cart.cpp.o.d"
   "CMakeFiles/EcommerceApp.dir/src/Customer.cpp.o"
   "CMakeFiles/EcommerceApp.dir/src/Customer.cpp.o.d"
+  "CMakeFiles/EcommerceApp.dir/src/Interface.cpp.o"
+  "CMakeFiles/EcommerceApp.dir/src/Interface.cpp.o.d"
   "CMakeFiles/EcommerceApp.dir/src/Order.cpp.o"
   "CMakeFiles/EcommerceApp.dir/src/Order.cpp.o.d"
   "CMakeFiles/EcommerceApp.dir/src/Product.cpp.o"

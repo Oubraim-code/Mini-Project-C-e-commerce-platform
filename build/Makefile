@@ -201,6 +201,30 @@ src/Customer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/EcommerceApp.dir/build.make CMakeFiles/EcommerceApp.dir/src/Customer.cpp.s
 .PHONY : src/Customer.cpp.s
 
+src/Interface.o: src/Interface.cpp.o
+.PHONY : src/Interface.o
+
+# target to build an object file
+src/Interface.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EcommerceApp.dir/build.make CMakeFiles/EcommerceApp.dir/src/Interface.cpp.o
+.PHONY : src/Interface.cpp.o
+
+src/Interface.i: src/Interface.cpp.i
+.PHONY : src/Interface.i
+
+# target to preprocess a source file
+src/Interface.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EcommerceApp.dir/build.make CMakeFiles/EcommerceApp.dir/src/Interface.cpp.i
+.PHONY : src/Interface.cpp.i
+
+src/Interface.s: src/Interface.cpp.s
+.PHONY : src/Interface.s
+
+# target to generate assembly for a file
+src/Interface.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EcommerceApp.dir/build.make CMakeFiles/EcommerceApp.dir/src/Interface.cpp.s
+.PHONY : src/Interface.cpp.s
+
 src/Order.o: src/Order.cpp.o
 .PHONY : src/Order.o
 
@@ -267,6 +291,9 @@ help:
 	@echo "... src/Customer.o"
 	@echo "... src/Customer.i"
 	@echo "... src/Customer.s"
+	@echo "... src/Interface.o"
+	@echo "... src/Interface.i"
+	@echo "... src/Interface.s"
 	@echo "... src/Order.o"
 	@echo "... src/Order.i"
 	@echo "... src/Order.s"
