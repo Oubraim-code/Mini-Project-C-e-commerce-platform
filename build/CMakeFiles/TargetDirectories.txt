@@ -1,0 +1,3 @@
+/home/aitoubraim/code_dir/e-commerce-platform/build/CMakeFiles/EcommerceApp.dir
+/home/aitoubraim/code_dir/e-commerce-platform/build/CMakeFiles/edit_cache.dir
+/home/aitoubraim/code_dir/e-commerce-platform/build/CMakeFiles/rebuild_cache.dir

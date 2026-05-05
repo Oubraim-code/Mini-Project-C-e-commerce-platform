@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/aitoubraim/code_dir/e-commerce-platform/build",
+  "command": "/usr/bin/g++  -I/home/aitoubraim/code_dir/e-commerce-platform/include -g -std=gnu++17 -o CMakeFiles/EcommerceApp.dir/main.cpp.o -c /home/aitoubraim/code_dir/e-commerce-platform/main.cpp",
+  "file": "/home/aitoubraim/code_dir/e-commerce-platform/main.cpp",
+  "output": "CMakeFiles/EcommerceApp.dir/main.cpp.o"
+}
+]
