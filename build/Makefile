@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aitoubraim/code_dir/e-commerce-platform
+CMAKE_SOURCE_DIR = /home/hack_dude/Documents/code_dir/e-commerce-platform
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aitoubraim/code_dir/e-commerce-platform/build
+CMAKE_BINARY_DIR = /home/hack_dude/Documents/code_dir/e-commerce-platform/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aitoubraim/code_dir/e-commerce-platform/build/CMakeFiles /home/aitoubraim/code_dir/e-commerce-platform/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hack_dude/Documents/code_dir/e-commerce-platform/build/CMakeFiles /home/hack_dude/Documents/code_dir/e-commerce-platform/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/aitoubraim/code_dir/e-commerce-platform/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hack_dude/Documents/code_dir/e-commerce-platform/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,48 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named EcommerceApp
+# Target rules for targets named MiniAmazon
 
 # Build rule for target.
-EcommerceApp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EcommerceApp
-.PHONY : EcommerceApp
+MiniAmazon: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MiniAmazon
+.PHONY : MiniAmazon
 
 # fast build rule for target.
-EcommerceApp/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EcommerceApp.dir/build.make CMakeFiles/EcommerceApp.dir/build
-.PHONY : EcommerceApp/fast
-
-main.o: main.cpp.o
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EcommerceApp.dir/build.make CMakeFiles/EcommerceApp.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EcommerceApp.dir/build.make CMakeFiles/EcommerceApp.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EcommerceApp.dir/build.make CMakeFiles/EcommerceApp.dir/main.cpp.s
-.PHONY : main.cpp.s
+MiniAmazon/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniAmazon.dir/build.make CMakeFiles/MiniAmazon.dir/build
+.PHONY : MiniAmazon/fast
 
 src/Cart.o: src/Cart.cpp.o
 .PHONY : src/Cart.o
 
 # target to build an object file
 src/Cart.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EcommerceApp.dir/build.make CMakeFiles/EcommerceApp.dir/src/Cart.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniAmazon.dir/build.make CMakeFiles/MiniAmazon.dir/src/Cart.cpp.o
 .PHONY : src/Cart.cpp.o
 
 src/Cart.i: src/Cart.cpp.i
@@ -166,7 +142,7 @@ src/Cart.i: src/Cart.cpp.i
 
 # target to preprocess a source file
 src/Cart.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EcommerceApp.dir/build.make CMakeFiles/EcommerceApp.dir/src/Cart.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniAmazon.dir/build.make CMakeFiles/MiniAmazon.dir/src/Cart.cpp.i
 .PHONY : src/Cart.cpp.i
 
 src/Cart.s: src/Cart.cpp.s
@@ -174,15 +150,39 @@ src/Cart.s: src/Cart.cpp.s
 
 # target to generate assembly for a file
 src/Cart.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EcommerceApp.dir/build.make CMakeFiles/EcommerceApp.dir/src/Cart.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniAmazon.dir/build.make CMakeFiles/MiniAmazon.dir/src/Cart.cpp.s
 .PHONY : src/Cart.cpp.s
+
+src/Clothing.o: src/Clothing.cpp.o
+.PHONY : src/Clothing.o
+
+# target to build an object file
+src/Clothing.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniAmazon.dir/build.make CMakeFiles/MiniAmazon.dir/src/Clothing.cpp.o
+.PHONY : src/Clothing.cpp.o
+
+src/Clothing.i: src/Clothing.cpp.i
+.PHONY : src/Clothing.i
+
+# target to preprocess a source file
+src/Clothing.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniAmazon.dir/build.make CMakeFiles/MiniAmazon.dir/src/Clothing.cpp.i
+.PHONY : src/Clothing.cpp.i
+
+src/Clothing.s: src/Clothing.cpp.s
+.PHONY : src/Clothing.s
+
+# target to generate assembly for a file
+src/Clothing.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniAmazon.dir/build.make CMakeFiles/MiniAmazon.dir/src/Clothing.cpp.s
+.PHONY : src/Clothing.cpp.s
 
 src/Customer.o: src/Customer.cpp.o
 .PHONY : src/Customer.o
 
 # target to build an object file
 src/Customer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EcommerceApp.dir/build.make CMakeFiles/EcommerceApp.dir/src/Customer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniAmazon.dir/build.make CMakeFiles/MiniAmazon.dir/src/Customer.cpp.o
 .PHONY : src/Customer.cpp.o
 
 src/Customer.i: src/Customer.cpp.i
@@ -190,7 +190,7 @@ src/Customer.i: src/Customer.cpp.i
 
 # target to preprocess a source file
 src/Customer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EcommerceApp.dir/build.make CMakeFiles/EcommerceApp.dir/src/Customer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniAmazon.dir/build.make CMakeFiles/MiniAmazon.dir/src/Customer.cpp.i
 .PHONY : src/Customer.cpp.i
 
 src/Customer.s: src/Customer.cpp.s
@@ -198,15 +198,87 @@ src/Customer.s: src/Customer.cpp.s
 
 # target to generate assembly for a file
 src/Customer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EcommerceApp.dir/build.make CMakeFiles/EcommerceApp.dir/src/Customer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniAmazon.dir/build.make CMakeFiles/MiniAmazon.dir/src/Customer.cpp.s
 .PHONY : src/Customer.cpp.s
+
+src/ECommercePlatform.o: src/ECommercePlatform.cpp.o
+.PHONY : src/ECommercePlatform.o
+
+# target to build an object file
+src/ECommercePlatform.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniAmazon.dir/build.make CMakeFiles/MiniAmazon.dir/src/ECommercePlatform.cpp.o
+.PHONY : src/ECommercePlatform.cpp.o
+
+src/ECommercePlatform.i: src/ECommercePlatform.cpp.i
+.PHONY : src/ECommercePlatform.i
+
+# target to preprocess a source file
+src/ECommercePlatform.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniAmazon.dir/build.make CMakeFiles/MiniAmazon.dir/src/ECommercePlatform.cpp.i
+.PHONY : src/ECommercePlatform.cpp.i
+
+src/ECommercePlatform.s: src/ECommercePlatform.cpp.s
+.PHONY : src/ECommercePlatform.s
+
+# target to generate assembly for a file
+src/ECommercePlatform.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniAmazon.dir/build.make CMakeFiles/MiniAmazon.dir/src/ECommercePlatform.cpp.s
+.PHONY : src/ECommercePlatform.cpp.s
+
+src/Electronics.o: src/Electronics.cpp.o
+.PHONY : src/Electronics.o
+
+# target to build an object file
+src/Electronics.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniAmazon.dir/build.make CMakeFiles/MiniAmazon.dir/src/Electronics.cpp.o
+.PHONY : src/Electronics.cpp.o
+
+src/Electronics.i: src/Electronics.cpp.i
+.PHONY : src/Electronics.i
+
+# target to preprocess a source file
+src/Electronics.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniAmazon.dir/build.make CMakeFiles/MiniAmazon.dir/src/Electronics.cpp.i
+.PHONY : src/Electronics.cpp.i
+
+src/Electronics.s: src/Electronics.cpp.s
+.PHONY : src/Electronics.s
+
+# target to generate assembly for a file
+src/Electronics.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniAmazon.dir/build.make CMakeFiles/MiniAmazon.dir/src/Electronics.cpp.s
+.PHONY : src/Electronics.cpp.s
+
+src/Food.o: src/Food.cpp.o
+.PHONY : src/Food.o
+
+# target to build an object file
+src/Food.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniAmazon.dir/build.make CMakeFiles/MiniAmazon.dir/src/Food.cpp.o
+.PHONY : src/Food.cpp.o
+
+src/Food.i: src/Food.cpp.i
+.PHONY : src/Food.i
+
+# target to preprocess a source file
+src/Food.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniAmazon.dir/build.make CMakeFiles/MiniAmazon.dir/src/Food.cpp.i
+.PHONY : src/Food.cpp.i
+
+src/Food.s: src/Food.cpp.s
+.PHONY : src/Food.s
+
+# target to generate assembly for a file
+src/Food.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniAmazon.dir/build.make CMakeFiles/MiniAmazon.dir/src/Food.cpp.s
+.PHONY : src/Food.cpp.s
 
 src/Order.o: src/Order.cpp.o
 .PHONY : src/Order.o
 
 # target to build an object file
 src/Order.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EcommerceApp.dir/build.make CMakeFiles/EcommerceApp.dir/src/Order.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniAmazon.dir/build.make CMakeFiles/MiniAmazon.dir/src/Order.cpp.o
 .PHONY : src/Order.cpp.o
 
 src/Order.i: src/Order.cpp.i
@@ -214,7 +286,7 @@ src/Order.i: src/Order.cpp.i
 
 # target to preprocess a source file
 src/Order.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EcommerceApp.dir/build.make CMakeFiles/EcommerceApp.dir/src/Order.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniAmazon.dir/build.make CMakeFiles/MiniAmazon.dir/src/Order.cpp.i
 .PHONY : src/Order.cpp.i
 
 src/Order.s: src/Order.cpp.s
@@ -222,7 +294,7 @@ src/Order.s: src/Order.cpp.s
 
 # target to generate assembly for a file
 src/Order.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EcommerceApp.dir/build.make CMakeFiles/EcommerceApp.dir/src/Order.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniAmazon.dir/build.make CMakeFiles/MiniAmazon.dir/src/Order.cpp.s
 .PHONY : src/Order.cpp.s
 
 src/Product.o: src/Product.cpp.o
@@ -230,7 +302,7 @@ src/Product.o: src/Product.cpp.o
 
 # target to build an object file
 src/Product.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EcommerceApp.dir/build.make CMakeFiles/EcommerceApp.dir/src/Product.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniAmazon.dir/build.make CMakeFiles/MiniAmazon.dir/src/Product.cpp.o
 .PHONY : src/Product.cpp.o
 
 src/Product.i: src/Product.cpp.i
@@ -238,7 +310,7 @@ src/Product.i: src/Product.cpp.i
 
 # target to preprocess a source file
 src/Product.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EcommerceApp.dir/build.make CMakeFiles/EcommerceApp.dir/src/Product.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniAmazon.dir/build.make CMakeFiles/MiniAmazon.dir/src/Product.cpp.i
 .PHONY : src/Product.cpp.i
 
 src/Product.s: src/Product.cpp.s
@@ -246,8 +318,104 @@ src/Product.s: src/Product.cpp.s
 
 # target to generate assembly for a file
 src/Product.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EcommerceApp.dir/build.make CMakeFiles/EcommerceApp.dir/src/Product.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniAmazon.dir/build.make CMakeFiles/MiniAmazon.dir/src/Product.cpp.s
 .PHONY : src/Product.cpp.s
+
+src/RecommendationEngine.o: src/RecommendationEngine.cpp.o
+.PHONY : src/RecommendationEngine.o
+
+# target to build an object file
+src/RecommendationEngine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniAmazon.dir/build.make CMakeFiles/MiniAmazon.dir/src/RecommendationEngine.cpp.o
+.PHONY : src/RecommendationEngine.cpp.o
+
+src/RecommendationEngine.i: src/RecommendationEngine.cpp.i
+.PHONY : src/RecommendationEngine.i
+
+# target to preprocess a source file
+src/RecommendationEngine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniAmazon.dir/build.make CMakeFiles/MiniAmazon.dir/src/RecommendationEngine.cpp.i
+.PHONY : src/RecommendationEngine.cpp.i
+
+src/RecommendationEngine.s: src/RecommendationEngine.cpp.s
+.PHONY : src/RecommendationEngine.s
+
+# target to generate assembly for a file
+src/RecommendationEngine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniAmazon.dir/build.make CMakeFiles/MiniAmazon.dir/src/RecommendationEngine.cpp.s
+.PHONY : src/RecommendationEngine.cpp.s
+
+src/StockManager.o: src/StockManager.cpp.o
+.PHONY : src/StockManager.o
+
+# target to build an object file
+src/StockManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniAmazon.dir/build.make CMakeFiles/MiniAmazon.dir/src/StockManager.cpp.o
+.PHONY : src/StockManager.cpp.o
+
+src/StockManager.i: src/StockManager.cpp.i
+.PHONY : src/StockManager.i
+
+# target to preprocess a source file
+src/StockManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniAmazon.dir/build.make CMakeFiles/MiniAmazon.dir/src/StockManager.cpp.i
+.PHONY : src/StockManager.cpp.i
+
+src/StockManager.s: src/StockManager.cpp.s
+.PHONY : src/StockManager.s
+
+# target to generate assembly for a file
+src/StockManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniAmazon.dir/build.make CMakeFiles/MiniAmazon.dir/src/StockManager.cpp.s
+.PHONY : src/StockManager.cpp.s
+
+src/Utils.o: src/Utils.cpp.o
+.PHONY : src/Utils.o
+
+# target to build an object file
+src/Utils.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniAmazon.dir/build.make CMakeFiles/MiniAmazon.dir/src/Utils.cpp.o
+.PHONY : src/Utils.cpp.o
+
+src/Utils.i: src/Utils.cpp.i
+.PHONY : src/Utils.i
+
+# target to preprocess a source file
+src/Utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniAmazon.dir/build.make CMakeFiles/MiniAmazon.dir/src/Utils.cpp.i
+.PHONY : src/Utils.cpp.i
+
+src/Utils.s: src/Utils.cpp.s
+.PHONY : src/Utils.s
+
+# target to generate assembly for a file
+src/Utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniAmazon.dir/build.make CMakeFiles/MiniAmazon.dir/src/Utils.cpp.s
+.PHONY : src/Utils.cpp.s
+
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniAmazon.dir/build.make CMakeFiles/MiniAmazon.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniAmazon.dir/build.make CMakeFiles/MiniAmazon.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MiniAmazon.dir/build.make CMakeFiles/MiniAmazon.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -257,22 +425,43 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... EcommerceApp"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... MiniAmazon"
 	@echo "... src/Cart.o"
 	@echo "... src/Cart.i"
 	@echo "... src/Cart.s"
+	@echo "... src/Clothing.o"
+	@echo "... src/Clothing.i"
+	@echo "... src/Clothing.s"
 	@echo "... src/Customer.o"
 	@echo "... src/Customer.i"
 	@echo "... src/Customer.s"
+	@echo "... src/ECommercePlatform.o"
+	@echo "... src/ECommercePlatform.i"
+	@echo "... src/ECommercePlatform.s"
+	@echo "... src/Electronics.o"
+	@echo "... src/Electronics.i"
+	@echo "... src/Electronics.s"
+	@echo "... src/Food.o"
+	@echo "... src/Food.i"
+	@echo "... src/Food.s"
 	@echo "... src/Order.o"
 	@echo "... src/Order.i"
 	@echo "... src/Order.s"
 	@echo "... src/Product.o"
 	@echo "... src/Product.i"
 	@echo "... src/Product.s"
+	@echo "... src/RecommendationEngine.o"
+	@echo "... src/RecommendationEngine.i"
+	@echo "... src/RecommendationEngine.s"
+	@echo "... src/StockManager.o"
+	@echo "... src/StockManager.i"
+	@echo "... src/StockManager.s"
+	@echo "... src/Utils.o"
+	@echo "... src/Utils.i"
+	@echo "... src/Utils.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 
