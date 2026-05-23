@@ -1,1 +1,0 @@
-/usr/bin/g++ -g CMakeFiles/EcommerceApp.dir/main.cpp.o CMakeFiles/EcommerceApp.dir/src/Cart.cpp.o CMakeFiles/EcommerceApp.dir/src/Customer.cpp.o CMakeFiles/EcommerceApp.dir/src/Interface.cpp.o CMakeFiles/EcommerceApp.dir/src/Order.cpp.o CMakeFiles/EcommerceApp.dir/src/Product.cpp.o -o EcommerceApp 

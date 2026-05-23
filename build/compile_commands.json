@@ -1,38 +1,74 @@
 [
 {
-  "directory": "/home/aitoubraim/code_dir/e-commerce-platform/build",
-  "command": "/usr/bin/g++  -I/home/aitoubraim/code_dir/e-commerce-platform/include -g -std=gnu++17 -o CMakeFiles/EcommerceApp.dir/main.cpp.o -c /home/aitoubraim/code_dir/e-commerce-platform/main.cpp",
-  "file": "/home/aitoubraim/code_dir/e-commerce-platform/main.cpp",
-  "output": "CMakeFiles/EcommerceApp.dir/main.cpp.o"
+  "directory": "/home/hack_dude/Documents/code_dir/e-commerce-platform/build",
+  "command": "/usr/bin/c++  -I/home/hack_dude/Documents/code_dir/e-commerce-platform/include -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/MiniAmazon.dir/src/Cart.cpp.o -c /home/hack_dude/Documents/code_dir/e-commerce-platform/src/Cart.cpp",
+  "file": "/home/hack_dude/Documents/code_dir/e-commerce-platform/src/Cart.cpp",
+  "output": "CMakeFiles/MiniAmazon.dir/src/Cart.cpp.o"
 },
 {
-  "directory": "/home/aitoubraim/code_dir/e-commerce-platform/build",
-  "command": "/usr/bin/g++  -I/home/aitoubraim/code_dir/e-commerce-platform/include -g -std=gnu++17 -o CMakeFiles/EcommerceApp.dir/src/Cart.cpp.o -c /home/aitoubraim/code_dir/e-commerce-platform/src/Cart.cpp",
-  "file": "/home/aitoubraim/code_dir/e-commerce-platform/src/Cart.cpp",
-  "output": "CMakeFiles/EcommerceApp.dir/src/Cart.cpp.o"
+  "directory": "/home/hack_dude/Documents/code_dir/e-commerce-platform/build",
+  "command": "/usr/bin/c++  -I/home/hack_dude/Documents/code_dir/e-commerce-platform/include -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/MiniAmazon.dir/src/Clothing.cpp.o -c /home/hack_dude/Documents/code_dir/e-commerce-platform/src/Clothing.cpp",
+  "file": "/home/hack_dude/Documents/code_dir/e-commerce-platform/src/Clothing.cpp",
+  "output": "CMakeFiles/MiniAmazon.dir/src/Clothing.cpp.o"
 },
 {
-  "directory": "/home/aitoubraim/code_dir/e-commerce-platform/build",
-  "command": "/usr/bin/g++  -I/home/aitoubraim/code_dir/e-commerce-platform/include -g -std=gnu++17 -o CMakeFiles/EcommerceApp.dir/src/Customer.cpp.o -c /home/aitoubraim/code_dir/e-commerce-platform/src/Customer.cpp",
-  "file": "/home/aitoubraim/code_dir/e-commerce-platform/src/Customer.cpp",
-  "output": "CMakeFiles/EcommerceApp.dir/src/Customer.cpp.o"
+  "directory": "/home/hack_dude/Documents/code_dir/e-commerce-platform/build",
+  "command": "/usr/bin/c++  -I/home/hack_dude/Documents/code_dir/e-commerce-platform/include -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/MiniAmazon.dir/src/Customer.cpp.o -c /home/hack_dude/Documents/code_dir/e-commerce-platform/src/Customer.cpp",
+  "file": "/home/hack_dude/Documents/code_dir/e-commerce-platform/src/Customer.cpp",
+  "output": "CMakeFiles/MiniAmazon.dir/src/Customer.cpp.o"
 },
 {
-  "directory": "/home/aitoubraim/code_dir/e-commerce-platform/build",
-  "command": "/usr/bin/g++  -I/home/aitoubraim/code_dir/e-commerce-platform/include -g -std=gnu++17 -o CMakeFiles/EcommerceApp.dir/src/Interface.cpp.o -c /home/aitoubraim/code_dir/e-commerce-platform/src/Interface.cpp",
-  "file": "/home/aitoubraim/code_dir/e-commerce-platform/src/Interface.cpp",
-  "output": "CMakeFiles/EcommerceApp.dir/src/Interface.cpp.o"
+  "directory": "/home/hack_dude/Documents/code_dir/e-commerce-platform/build",
+  "command": "/usr/bin/c++  -I/home/hack_dude/Documents/code_dir/e-commerce-platform/include -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/MiniAmazon.dir/src/ECommercePlatform.cpp.o -c /home/hack_dude/Documents/code_dir/e-commerce-platform/src/ECommercePlatform.cpp",
+  "file": "/home/hack_dude/Documents/code_dir/e-commerce-platform/src/ECommercePlatform.cpp",
+  "output": "CMakeFiles/MiniAmazon.dir/src/ECommercePlatform.cpp.o"
 },
 {
-  "directory": "/home/aitoubraim/code_dir/e-commerce-platform/build",
-  "command": "/usr/bin/g++  -I/home/aitoubraim/code_dir/e-commerce-platform/include -g -std=gnu++17 -o CMakeFiles/EcommerceApp.dir/src/Order.cpp.o -c /home/aitoubraim/code_dir/e-commerce-platform/src/Order.cpp",
-  "file": "/home/aitoubraim/code_dir/e-commerce-platform/src/Order.cpp",
-  "output": "CMakeFiles/EcommerceApp.dir/src/Order.cpp.o"
+  "directory": "/home/hack_dude/Documents/code_dir/e-commerce-platform/build",
+  "command": "/usr/bin/c++  -I/home/hack_dude/Documents/code_dir/e-commerce-platform/include -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/MiniAmazon.dir/src/Electronics.cpp.o -c /home/hack_dude/Documents/code_dir/e-commerce-platform/src/Electronics.cpp",
+  "file": "/home/hack_dude/Documents/code_dir/e-commerce-platform/src/Electronics.cpp",
+  "output": "CMakeFiles/MiniAmazon.dir/src/Electronics.cpp.o"
 },
 {
-  "directory": "/home/aitoubraim/code_dir/e-commerce-platform/build",
-  "command": "/usr/bin/g++  -I/home/aitoubraim/code_dir/e-commerce-platform/include -g -std=gnu++17 -o CMakeFiles/EcommerceApp.dir/src/Product.cpp.o -c /home/aitoubraim/code_dir/e-commerce-platform/src/Product.cpp",
-  "file": "/home/aitoubraim/code_dir/e-commerce-platform/src/Product.cpp",
-  "output": "CMakeFiles/EcommerceApp.dir/src/Product.cpp.o"
+  "directory": "/home/hack_dude/Documents/code_dir/e-commerce-platform/build",
+  "command": "/usr/bin/c++  -I/home/hack_dude/Documents/code_dir/e-commerce-platform/include -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/MiniAmazon.dir/src/Food.cpp.o -c /home/hack_dude/Documents/code_dir/e-commerce-platform/src/Food.cpp",
+  "file": "/home/hack_dude/Documents/code_dir/e-commerce-platform/src/Food.cpp",
+  "output": "CMakeFiles/MiniAmazon.dir/src/Food.cpp.o"
+},
+{
+  "directory": "/home/hack_dude/Documents/code_dir/e-commerce-platform/build",
+  "command": "/usr/bin/c++  -I/home/hack_dude/Documents/code_dir/e-commerce-platform/include -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/MiniAmazon.dir/src/Order.cpp.o -c /home/hack_dude/Documents/code_dir/e-commerce-platform/src/Order.cpp",
+  "file": "/home/hack_dude/Documents/code_dir/e-commerce-platform/src/Order.cpp",
+  "output": "CMakeFiles/MiniAmazon.dir/src/Order.cpp.o"
+},
+{
+  "directory": "/home/hack_dude/Documents/code_dir/e-commerce-platform/build",
+  "command": "/usr/bin/c++  -I/home/hack_dude/Documents/code_dir/e-commerce-platform/include -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/MiniAmazon.dir/src/Product.cpp.o -c /home/hack_dude/Documents/code_dir/e-commerce-platform/src/Product.cpp",
+  "file": "/home/hack_dude/Documents/code_dir/e-commerce-platform/src/Product.cpp",
+  "output": "CMakeFiles/MiniAmazon.dir/src/Product.cpp.o"
+},
+{
+  "directory": "/home/hack_dude/Documents/code_dir/e-commerce-platform/build",
+  "command": "/usr/bin/c++  -I/home/hack_dude/Documents/code_dir/e-commerce-platform/include -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/MiniAmazon.dir/src/RecommendationEngine.cpp.o -c /home/hack_dude/Documents/code_dir/e-commerce-platform/src/RecommendationEngine.cpp",
+  "file": "/home/hack_dude/Documents/code_dir/e-commerce-platform/src/RecommendationEngine.cpp",
+  "output": "CMakeFiles/MiniAmazon.dir/src/RecommendationEngine.cpp.o"
+},
+{
+  "directory": "/home/hack_dude/Documents/code_dir/e-commerce-platform/build",
+  "command": "/usr/bin/c++  -I/home/hack_dude/Documents/code_dir/e-commerce-platform/include -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/MiniAmazon.dir/src/StockManager.cpp.o -c /home/hack_dude/Documents/code_dir/e-commerce-platform/src/StockManager.cpp",
+  "file": "/home/hack_dude/Documents/code_dir/e-commerce-platform/src/StockManager.cpp",
+  "output": "CMakeFiles/MiniAmazon.dir/src/StockManager.cpp.o"
+},
+{
+  "directory": "/home/hack_dude/Documents/code_dir/e-commerce-platform/build",
+  "command": "/usr/bin/c++  -I/home/hack_dude/Documents/code_dir/e-commerce-platform/include -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/MiniAmazon.dir/src/Utils.cpp.o -c /home/hack_dude/Documents/code_dir/e-commerce-platform/src/Utils.cpp",
+  "file": "/home/hack_dude/Documents/code_dir/e-commerce-platform/src/Utils.cpp",
+  "output": "CMakeFiles/MiniAmazon.dir/src/Utils.cpp.o"
+},
+{
+  "directory": "/home/hack_dude/Documents/code_dir/e-commerce-platform/build",
+  "command": "/usr/bin/c++  -I/home/hack_dude/Documents/code_dir/e-commerce-platform/include -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/MiniAmazon.dir/src/main.cpp.o -c /home/hack_dude/Documents/code_dir/e-commerce-platform/src/main.cpp",
+  "file": "/home/hack_dude/Documents/code_dir/e-commerce-platform/src/main.cpp",
+  "output": "CMakeFiles/MiniAmazon.dir/src/main.cpp.o"
 }
 ]
